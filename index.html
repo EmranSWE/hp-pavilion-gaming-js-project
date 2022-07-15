@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hp Pavilion Gaming</title>
+    <!-- Tailwind Css -->
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <!-- Css -->
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <main>
+        <section class="grid grid-cols-2 gap-8  w-3/4 mx-auto">
+            <div class="images">
+                <img  src="images/mac.png" alt="">
+
+            </div>
+            <div class="">
+                <p  class="text-3xl ">Customize your blue 24-inch HP pavilion gaming with apple M1 Chipset</p>
+                <p>The HP Pavilion 15-eg1043TX laptop is powered by the Intel Core i5-1155G7 (8M Cache, 2.50 GHz up to 4.50 GHz) and it comes with 8 GB DDR4-3200 MHz RAM. This laptop comes with a 512 GB PCIe NVMe M.2 SSD for storing all your valuable data. Pavilion 15-eg1043TX is integrated with NVIDIA GeForce MX450 2 GB GDDR5 dedicated Graphics. The laptop has a 15.6" diagonal, FHD (1920 x 1080), IPS, micro-edge, anti-glare, 250 nits, 45% NTSC Display.</p>
+                <!-- Memory -->
+                <h2 class="text-xl font-bold mt-5">Memory</h2>
+                <button id="memory-8gb" class="hover:bg-slate-200 border-2 border-indigo-600 rounded-md p-1">8GB Unified Memory </button>
+                <button id="memory-16gb" class="border-2 border-indigo-600 rounded-md p-1">16GB Unified Memory</button>
+                <!-- Storage -->
+                <h2 class="text-xl font-bold mt-6">Storage</h2>
+                <button id="extra-256gb" class="border-2 border-indigo-600 rounded-md p-1">256GB SSD Storage</button>
+                <button id="extra-512gb" class="border-2 border-indigo-600 rounded-md p-1">512GB SSD Storage</button>
+                <button id="extra-1tb" class="border-2 border-indigo-600 rounded-md p-1">1TB SSD Storage</button>
+
+                <!-- Delivery option -->
+                <h2 class="text-xl font-bold mt-6">Delivery Option</h2>
+                <button id="normal-delivery" class="border-2 border-indigo-600 rounded-md ">Friday,July 24 FREE Delivery</button>
+                <button id="express-delivery" class="border-2 border-indigo-600 rounded-md ">July 20 Express Delivery charge $20</button>
+
+                <!-- Prices -->
+                <div class="mt-5 flex justify-between">
+                    <div> <h3 class="text-xl font-bold border-b-2 border-gray-200">Best Price</h3>
+                        <h3 class="text-xl font-bold border-b-2 border-gray-200">Extra Memory Cost </h3>
+                        <h3 class="text-xl font-bold font-bold border-b-2 border-gray-200">Extra Storage Cost </h3>
+                        <h3 class="text-xl font-bold font-bold border-b-4 border-blue-200">Delivery charge</h3>
+                        <h3 class="text-xl font-bold">Total Price</h3>
+
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold">$<span id="best-price">1299</span> </h3>
+                        <h3 class="text-xl font-bold">$<span id="extra-memory-cost">0</span></h3>
+                        <h3 class="text-xl font-bold">$<span id="extra-storage-cost">0</span></h3>
+                        <h3 class="text-xl font-bold">$<span id="delivery-charge">0</span></h3>
+                        <h3 class="text-xl font-bold">$<span id="total-price">1299</span></h3>
+                    </div>
+                    
+                </div>
+                <h4 class="mt-6 text-xl font-normal">Add Promo code</h4>
+                <input id="coupon-code" class="border-2 border-indigo-600 rounded-md p-1" type="text">
+                <button id="apply" class="bg-red-700 text-white p-2 border rounded">Apply</button>
+            </div>
+           
+
+        </section>
+        <footer class="border-t-4 border-gray-200 w-3/4 mx-auto mt-5">
+            <h1 class="text-center text-4xl font-bold mt-5">Total: $ <span id="total">1299</span></h1>
+        </footer>
+        
+    </main>
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
