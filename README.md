@@ -23,7 +23,7 @@ Where:
 * Finally see the total price
 
 ## Demo
-Generate and Pin Matched:
+HP pavilion gaming js
 [Live Demo](https://emranswe.github.io/hp-pavilion-gaming-js-project/)
 
 ## Documentation
